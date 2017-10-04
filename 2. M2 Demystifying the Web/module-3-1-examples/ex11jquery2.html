@@ -1,0 +1,16 @@
+<html>
+<script
+  src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+</script>
+<script>
+   $(document).ready(function(){
+         $("#b1").click(function(){
+            $("#fred").load("ex11load.php?foo=5")
+         });
+   });
+</script>
+<h3>jQuery example 2</h3>
+<button id="b1">Button 1</button><p>
+<button id="b2">Button 2</button><p>
+<div id="fred">Fred</div>
+</html>
